@@ -1,9 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { BsSearch } from 'react-icons/bs'
 const Header = () => {
     return (
         <>
-            <div className='header-top-strip py-3'>
+            <header className='header-top-strip py-3'>
                 <div className='container-xxl'>
                     <div className='row'>
                         <div className='col-6'>
@@ -14,7 +15,29 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </header>
+            <header className='header-upper py-3'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-2'>
+                            <h1>
+                                <Link className='text-white'>Stella</Link>
+                            </h1>
+                        </div>
+                        <div className='col-5'>
+                            <div className="input-group mb-3">
+                                <input type="text" className="form-control" placeholder="Search Products Here" aria-label="Search Products Here" aria-describedby="basic-addon2" />
+                                <span className="input-group-text" id="basic-addon2">
+                                    <BsSearch />
+                                </span>
+                            </div>
+                        </div>
+                        <div className='col-5'>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
         </>
     );
 };
