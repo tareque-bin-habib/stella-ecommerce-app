@@ -71,6 +71,27 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+            <header className='header-bottom py-3'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <div className='menu-bootm d-flex align-items-center'>
+                                <div>
+
+                                </div>
+                                <div className='menu-links'>
+                                    <div className='d-flex align-items-center gap-15'>
+                                        <NavLink to='/'>Home</NavLink>
+                                        <NavLink to='/'>our Store</NavLink>
+                                        <NavLink to='/'>Blogs</NavLink>
+                                        <NavLink to='/contact'>Contact</NavLink>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
         </>
     );
 };
