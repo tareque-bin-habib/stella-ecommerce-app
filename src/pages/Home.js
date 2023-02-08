@@ -5,11 +5,16 @@ import banner2 from '../images/catbanner-01.jpg'
 import banner3 from '../images/catbanner-02.jpg'
 import banner4 from '../images/catbanner-03.jpg'
 import banner5 from '../images/catbanner-04.jpg'
+import service1 from '../images/service.png'
+import service2 from '../images/service-02.png'
+import service3 from '../images/service-03.png'
+import service4 from '../images/service-04.png'
+import service5 from '../images/service-05.png'
 
 const Home = () => {
     return (
         <>
-            <section className='home-wraper-1 py-5'>
+            <section className='home-wrapper-1 py-5'>
                 <div className="container-xxl">
                     <div className="row">
                         <div className="col-6">
@@ -59,6 +64,51 @@ const Home = () => {
                                         <h5>AirPod Max</h5>
                                         <p>Hign-fidefity playnack &<br /> ultra-low distortion</p>
 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='home-wraper-2 py-5'>
+                <div className='container-xxl'>
+                    <div className="row">
+                        <div className="col-12">
+                            <div className='services d-flex align-items-center justify-content-between'>
+                                <div className='d-flex align-items-center gap-15'>
+                                    <img src={service1} alt="service" />
+                                    <div>
+                                        <h6>Free Shipping</h6>
+                                        <p className='mb-0'>From all orders over $100</p>
+                                    </div>
+                                </div>
+                                <div className='d-flex align-items-center gap-15'>
+                                    <img src={service2} alt="service" />
+                                    <div>
+                                        <h6>daily Service Offers</h6>
+                                        <p className='mb-0'>Save up to 25% off</p>
+                                    </div>
+                                </div>
+                                <div className='d-flex align-items-center gap-15'>
+                                    <img src={service3} alt="service" />
+                                    <div>
+                                        <h6>Support 24/7</h6>
+                                        <p className='mb-0'>Shop with an expert</p>
+                                    </div>
+                                </div>
+                                <div className='d-flex align-items-center gap-15'>
+                                    <img src={service4} alt="service" />
+                                    <div>
+                                        <h6>Affordable Prices</h6>
+                                        <p className='mb-0'>Get factory direct price</p>
+                                    </div>
+                                </div>
+                                <div className='d-flex align-items-center gap-15'>
+                                    <img src={service5} alt="service" />
+                                    <div>
+                                        <h6>Source Payments</h6>
+                                        <p className='mb-0'>100% protected payment</p>
                                     </div>
                                 </div>
                             </div>
