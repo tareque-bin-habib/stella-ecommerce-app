@@ -10,6 +10,10 @@ import service2 from '../images/service-02.png'
 import service3 from '../images/service-03.png'
 import service4 from '../images/service-04.png'
 import service5 from '../images/service-05.png'
+import cat1 from '../images/camera.jpg'
+import cat2 from '../images/tv.jpg'
+import cat3 from '../images/headphone.jpg'
+import cat4 from '../images/acc.jpg'
 
 const Home = () => {
     return (
@@ -110,6 +114,72 @@ const Home = () => {
                                         <h6>Source Payments</h6>
                                         <p className='mb-0'>100% protected payment</p>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='home-wraper-2 py-5'>
+                <div className="container-xxl">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="categories d-flex align-items-center flex-wrap justify-content-between">
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Cameras</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src={cat1} alt="" />
+                                </div>
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Smart TV</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src={cat2} alt="" />
+                                </div>
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Smart Headphones</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src={cat3} alt="" />
+                                </div>
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Ear Birds</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src={cat4} alt="" />
+                                </div>
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Cameras</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src={cat1} alt="" />
+                                </div>
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Smart TV</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src={cat2} alt="" />
+                                </div>
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Smart Headphones</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src={cat3} alt="" />
+                                </div>
+                                <div className='d-flex gap-30 align-items-center'>
+                                    <div>
+                                        <h6>Ear Birds</h6>
+                                        <p>10 Items</p>
+                                    </div>
+                                    <img src={cat4} alt="" />
                                 </div>
                             </div>
                         </div>
