@@ -14,6 +14,15 @@ import cat1 from '../images/camera.jpg'
 import cat2 from '../images/tv.jpg'
 import cat3 from '../images/headphone.jpg'
 import cat4 from '../images/acc.jpg'
+import Marquee from "react-fast-marquee";
+import brand1 from '../images/brand-01.png'
+import brand2 from '../images/brand-02.png'
+import brand3 from '../images/brand-02.png'
+import brand4 from '../images/brand-04.png'
+import brand5 from '../images/brand-05.png'
+import brand6 from '../images/brand-06.png'
+import brand7 from '../images/brand-07.png'
+import brand8 from '../images/brand-08.png'
 
 const Home = () => {
     return (
@@ -181,6 +190,42 @@ const Home = () => {
                                     </div>
                                     <img src={cat4} alt="" />
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='marque-wrapper py-5'>
+                <div className='container-xxl'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <div className="marque-inner-wrapper bg-white card-wrapper">
+                                <Marquee className='d-flex'>
+                                    <div>
+                                        <img src={brand1} alt="brand" />
+                                    </div>
+                                    <div>
+                                        <img src={brand2} alt="brand" />
+                                    </div>
+                                    <div>
+                                        <img src={brand3} alt="brand" />
+                                    </div>
+                                    <div>
+                                        <img src={brand4} alt="brand" />
+                                    </div>
+                                    <div>
+                                        <img src={brand5} alt="brand" />
+                                    </div>
+                                    <div>
+                                        <img src={brand6} alt="brand" />
+                                    </div>
+                                    <div>
+                                        <img src={brand7} alt="brand" />
+                                    </div>
+                                    <div>
+                                        <img src={brand8} alt="brand" />
+                                    </div>
+                                </Marquee>
                             </div>
                         </div>
                     </div>
