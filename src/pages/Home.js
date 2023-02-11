@@ -23,6 +23,7 @@ import brand5 from '../images/brand-05.png'
 import brand6 from '../images/brand-06.png'
 import brand7 from '../images/brand-07.png'
 import brand8 from '../images/brand-08.png'
+import BlogCard from '../components/BlogCard';
 
 const Home = () => {
     return (
@@ -222,12 +223,22 @@ const Home = () => {
                                     <div className='mx-4 w-25'>
                                         <img src={brand7} alt="brand" />
                                     </div>
-                                    <div className='mx-4 w-25'>
+                                    <div>
                                         <img src={brand8} alt="brand" />
                                     </div>
                                 </Marquee>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section className='blog-wrapper py-5 home-wrapper-2'>
+                <div className="container-xxl">
+                    <div className="row">
+                        <BlogCard></BlogCard>
+                        <BlogCard></BlogCard>
+                        <BlogCard></BlogCard>
+                        <BlogCard></BlogCard>
                     </div>
                 </div>
             </section>
