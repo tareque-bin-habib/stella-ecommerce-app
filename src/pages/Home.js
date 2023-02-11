@@ -201,28 +201,28 @@ const Home = () => {
                         <div className='col-12'>
                             <div className="marque-inner-wrapper bg-white card-wrapper">
                                 <Marquee className='d-flex'>
-                                    <div>
+                                    <div className='mx-4 w-25'>
                                         <img src={brand1} alt="brand" />
                                     </div>
-                                    <div>
+                                    <div className='mx-4 w-25'>
                                         <img src={brand2} alt="brand" />
                                     </div>
-                                    <div>
+                                    <div className='mx-4 w-25'>
                                         <img src={brand3} alt="brand" />
                                     </div>
-                                    <div>
+                                    <div className='mx-4 w-25'>
                                         <img src={brand4} alt="brand" />
                                     </div>
-                                    <div>
+                                    <div className='mx-4 w-25'>
                                         <img src={brand5} alt="brand" />
                                     </div>
-                                    <div>
+                                    <div className='mx-4 w-25'>
                                         <img src={brand6} alt="brand" />
                                     </div>
-                                    <div>
+                                    <div className='mx-4 w-25'>
                                         <img src={brand7} alt="brand" />
                                     </div>
-                                    <div>
+                                    <div className='mx-4 w-25'>
                                         <img src={brand8} alt="brand" />
                                     </div>
                                 </Marquee>
