@@ -276,6 +276,17 @@ footer .input-group-text {
   padding: 0;
 }
 
+.blog-content h5 {
+  font-size: 18px;
+  color: var(--color-131921);
+}
+
+.blog-content p.desc {
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--color-777777);
+}
+
 /* Blog Card end */
 
 
