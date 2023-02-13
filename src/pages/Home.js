@@ -30,8 +30,8 @@ const Home = () => {
         <>
             <section className='home-wrapper-1 py-5'>
                 <div className="container-xxl">
-                    <div className="row">
-                        <div className="col-6">
+                    <div className="row banner-main">
+                        <div className="col-6 full-main-banner">
                             <div className="main-banner position-relative">
                                 <img src={banner1} className='img-fluid rounded-3' alt="main-banner" />
                                 <div className='main-banner-content position-absolute'>

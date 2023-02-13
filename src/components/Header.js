@@ -38,7 +38,7 @@ const Header = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className='col-5'>
+                        <div className='col-5 header-links'>
                             <div className='header-upper-links d-flex align-items-center justify-content-between'>
                                 <div>
                                     <Link className='d-flex align-items-center gap-10 text-white'>
